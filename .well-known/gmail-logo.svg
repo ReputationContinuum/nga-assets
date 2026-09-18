@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="100" viewBox="0 0 400 100" role="img" aria-label="NGA logo">
+  <defs>
+    <linearGradient id="ngaGrad" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1D4ED8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- wide canvas for Gmail compliance -->
+  <rect width="400" height="100" fill="#FFFFFF"/>
+
+  <!-- logo block -->
+  <g transform="translate(12,10)">
+    <rect x="0" y="0" width="80" height="80" rx="16" fill="url(#ngaGrad)"/>
+    <path d="M22 20V60H32V35L48 60H58V20H48V45L32 20H22Z" fill="#FFFFFF"/>
+    <path d="M62 20H72V60H62V20Z" fill="#FFFFFF" opacity="0.9"/>
+    <circle cx="65" cy="66" r="5" fill="#FFFFFF"/>
+  </g>
+
+  <!-- wordmark -->
+  <g transform="translate(110,10)">
+    <text x="0" y="58" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="42" fill="#0F172A">NGA</text>
+    <text x="0" y="78" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="2" fill="#475569">REPUTATION</text>
+  </g>
+</svg>
